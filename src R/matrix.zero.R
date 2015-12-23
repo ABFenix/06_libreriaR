@@ -1,18 +1,12 @@
 ###############################################################################################
-# Libreria que contiene algunas funciones propias`
+# Funcion encargada de crear una matriz de ceros nxm de 0's
 #
-# Esta libreria se subirá a GitHub
+# Esta funcion pertenece a la libreria 06_libreriaR
 ###############################################################################################
 
 # Instalacion de los paquetes que se necesitan
 
 # Descarga en el environment de los paquetes
-
-# Funcion encargada de sumar dos numeros pasados por parametro
-
-suma.dos.numeros <- function (x,y=0) return (x+y)
-
-# Funcion encargada de crear una matrix nxm de 0's
 
 matrix.cero <- function (n=1,m=1) {
   c <- matrix(rep(0,n*m), nrow=n, ncol=m)
