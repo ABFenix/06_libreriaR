@@ -1,0 +1,16 @@
+{
+    "contents" : "#' Create an (nxm) 0's matrix\n#'\n#' @param n An integer. Default value, 1\n#' @param y An integer. Default value, 1\n#' @return A zeros matrix. Dimensions: rows number = {n}; columns number = {m}.\n#' @examples\n#' matrix.zero(4, 5)    \n#' matrix.zero(4)   \n#' matrix.zero()      \n#' matrix.zero(5,4)    \nmatrix.zero <- function (n=1,m=1) {\n  c <- matrix(rep(0,n*m), nrow=n, ncol=m)\n  return (c)\n}",
+    "created" : 1450886420840.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3515453353",
+    "id" : "649BA3D3",
+    "lastKnownWriteTime" : 1450886503,
+    "path" : "~/Practicas_DS/PrepDatosR/src/06_libreriaR/R/matrix.zero.R",
+    "project_path" : "R/matrix.zero.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

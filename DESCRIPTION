@@ -1,0 +1,10 @@
+Package: 06_libreriaR
+Type: Package
+Title: Trabajos comunes en el tratamiento de datos
+Version: 1.0
+Date: 2015-12-23
+Author: ABFenix
+Maintainer: abmorena@gmail.com
+Description: 06_libreriaR es un sistema de funciones para R en el cual se intenta aglutinar una serie de funciones creadas sobre la base de R para facilitar ciertos trabajos comunmente utilizados y que pueden requerir la combinación de varias sentencias.
+License: R 3.1
+RoxygenNote: 5.0.1
