@@ -9,4 +9,5 @@ facilitar ciertos trabajos comunmente utilizados y que pueden requerir la combin
 Dado que este paquete se encuentra en GitHub, su utilizacion desde R require el paquete **devtools""  
 
 >install.packages("devtools")
+
 >devtools::install_github("ABFenix/06_libreriaR")
